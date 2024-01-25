@@ -1,0 +1,15 @@
+#ex1.1
+print(10>9)
+True
+#ex1.2
+print(10==9)
+False
+#ex1.3
+print(10<9)
+False
+#ex1.4
+print(bool("abc"))
+True
+#ex1.5
+print(bool(0))
+False
