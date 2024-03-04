@@ -24,12 +24,3 @@ t=datetime.datetime.now()+datetime.timedelta(days=1)
 difference=t-x
 difference_in_seconds=difference.total_seconds()
 print(difference_in_seconds)
-#ex1.5
-def gen(n,k=1):
-    while k<=n:
-        yield k**2
-        k+=1
-n=int(input())
-a=gen(n)
-for i in a:
- print(i)
